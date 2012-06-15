@@ -147,9 +147,9 @@ module Ledis
     def level_for(level)
       case level
         when Integer
-          Levels[ Levels.invert[level] || 4 ]
+          Levels[ Levels.invert[level] || 0 ]
         else
-          Levels[ level.to_s.downcase ]
+          Levels[ level.to_s.downcase || 'debug' ]
       end
     end
 

@@ -9,7 +9,7 @@ Gem::Specification::new do |spec|
   spec.description = "description: ledis kicks the ass"
 
   spec.files =
-["Rakefile", "lib", "lib/ledis.rb"]
+["README.md", "Rakefile", "ledis.gemspec", "lib", "lib/ledis.rb"]
 
   spec.executables = []
   
