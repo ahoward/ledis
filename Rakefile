@@ -217,11 +217,13 @@ task :release => [:clean, :gemspec, :gem] do
   system(cmd)
   abort("cmd(#{ cmd }) failed with (#{ $?.inspect })") unless $?.exitstatus.zero?
 
+=begin
   cmd = "rubyforge login && rubyforge add_release #{ This.rubyforge_project } #{ This.lib } #{ This.version } #{ This.gem }"
   puts cmd
   puts
   system(cmd)
   abort("cmd(#{ cmd }) failed with (#{ $?.inspect })") unless $?.exitstatus.zero?
+=end
 end
 
 
