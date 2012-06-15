@@ -1,9 +1,11 @@
 NAME
+----
 
   ledis
 
  
 SYNOPSIS
+--------
 
   a K.I.S.S auto-rotating redis logger for ruby/rails
 
@@ -37,6 +39,7 @@ SYNOPSIS
  
  
 DESCRIPTION
+-----------
 
   ledis logs yo shiznit to redis.  it's got built in logic to auto-truncate
   logs when they get to big
@@ -51,6 +54,7 @@ DESCRIPTION
   annotated log lines or add fancy data structures to them
 
 INSTALL
+-------
 
-  gem 'ledis'
+    gem 'ledis'
 
