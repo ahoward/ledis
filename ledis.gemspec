@@ -6,7 +6,7 @@ Gem::Specification::new do |spec|
   spec.version = "0.0.1"
   spec.platform = Gem::Platform::RUBY
   spec.summary = "ledis"
-  spec.description = "description: ledis kicks the ass"
+  spec.description = " a K.I.S.S auto-rotating redis logger for ruby/rails"
 
   spec.files =
 ["README.md", "Rakefile", "ledis.gemspec", "lib", "lib/ledis.rb"]
