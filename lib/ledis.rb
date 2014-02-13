@@ -64,7 +64,11 @@ module Ledis
 #
   class << Ledis
     def version
-      '0.0.1'
+      '0.0.2'
+    end
+
+    def description
+      'a K.I.S.S auto-rotating redis logger for ruby/rails'
     end
 
     def dependencies
