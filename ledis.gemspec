@@ -3,7 +3,7 @@
 
 Gem::Specification::new do |spec|
   spec.name = "ledis"
-  spec.version = "0.0.2"
+  spec.version = "0.0.3"
   spec.platform = Gem::Platform::RUBY
   spec.summary = "ledis"
   spec.description = "a K.I.S.S auto-rotating redis logger for ruby/rails"
@@ -18,8 +18,11 @@ Gem::Specification::new do |spec|
 
   spec.test_files = nil
 
-### spec.add_dependency 'lib', '>= version'
-#### spec.add_dependency 'map'
+  
+    spec.add_dependency(*["map", " >= 6.0.1"])
+  
+    spec.add_dependency(*["redis", " >= 2.2.2"])
+  
 
   spec.extensions.push(*[])
 
